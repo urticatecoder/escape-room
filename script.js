@@ -46,7 +46,7 @@ function switchPageSix(){
     document.formFour.year.value = "";
   }
   if(clicked===false){
-    document.getElementById("assassinationDate").innerHTML += "<br>" + "Incorrect! Try checking those images again...";
+    document.getElementById("assassinationDate").innerHTML += "<br>" + "Incorrect! Try checking those images again, perhaps there's something hidden...";
     document.getElementById("assassinationDate").innerHTML += "<br>" + "<button style='width: 120px; height: 60px; font-size: 1vw;' onclick='returnToStart()'>" + "Back to first question" + "</button>";
     clicked = true;
   }
@@ -55,4 +55,12 @@ function switchPageSix(){
 function returnToStart(){
   window.location = "./firstGuess.html";
   clicked=false;
+}
+
+function toClue(){
+  window.location = "./clue.html"
+}
+
+function incorrect(){
+  window.location = "incorrect.html"
 }
