@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+*{
+  font-family:MedievalSharp;
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#lincolnMsg{
+  font-size: 50px;
+  text-align: center;
+  width: 80vw;
+  box-sizing: border-box;
+  margin: 2vh auto 0 auto;
+}
+#homePassword{
+  font-size: 32px;
+  text-align: center;
+  width: 80vw;
+  height: 150px;
+  box-sizing: border-box;
+  margin: 6vh auto 0 auto;
+  border: 3px solid grey;
+  box-shadow: 15px 15px 10px #b2b2b2;
+}
+#passwordBox{
+  width: 60%;
+  height: 80px;
+  font-size: 60px;
+}
+#startButton{
+  width: 200px;
+  height: 100px;
+  margin-top: 60px;
+  font-size: 2vw;
+}
